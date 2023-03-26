@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    background: url(hxh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar
+{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    position: relative;
+    display: flex;
+}
+.icon
+{
+    float: left;
+    width: 190px;
+    height: 100%;
+    margin-left: 100px;
+    background: url(hxh1.png);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.menu
+{
+    width: 700px;
+    height: 100%;
+    float: left;
+    margin-left: 450px;
+}
+ul
+{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    margin-top: 15px
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+    transition: .2s;
+}
+ul li a:hover
+{
+    background-color: black;
+    color: red;
+    transition: .2s;
+}
+#select
+{
+    height: 25px;
+    font-family: arial;
+    margin-left: 50px;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 132px;
+    cursor: pointer;
+    background: orange;
+}
+.logsign
+{
+    width: 300px;
+    height: 100%;
+    float: right;
+    position: relative;
+    display: flex;
+    margin-left: 500px;
+}
+.button
+{
+    width: 80px;
+    height: 30px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.button:hover
+{
+    transform: scale(1.5);
+    transition: .2s;
+    background-color: #444;
+    color: white;
+}
+#icon
+{
+    width: 400px;
+    height: 280px;
+    margin-left: 140px;
+}
+#logo
+{
+    width: 400px;
+    height: 100%;
+    background: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(6px 20px 2px black);
+}
+#text
+{
+    width: 600px;
+    height: 200px;
+    margin-left: 50px
+}
+#text p
+{
+    color: white;
+    margin-top: 20px;
+    font-family: arial;
+    filter: drop-shadow(0 20px 40px black)
+}
+#list
+{
+    width: 700px;
+    height: 200px;
+    margin-left: 50px;
+    display: flex;
+}
+#title
+{
+    width: 110px;
+    height: 100%;
+}
+#title h1
+{
+    font-size: 20px;
+    color: orange;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: arial;
+}
+#developer
+{
+    float: right;
+}
+#developer p
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    font-family: arial;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
